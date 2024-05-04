@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-//import 'package:sales_app/features/splash/presentation/splash_view.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:sales_app/features/companylist/presentation/view/company_list_view.dart';
-//import 'package:sales_app/features/login/presentation/view/login_view.dart';
+
  
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
