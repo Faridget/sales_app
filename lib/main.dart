@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:sales_app/features/companylist/presentation/view/company_list_view.dart';
+//import 'package:sales_app/features/companylist/presentation/view/company_list_view.dart';
+import 'package:sales_app/features/login/presentation/view/login_view.dart';
 
  
 void main() {
@@ -25,7 +26,7 @@ class MainApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey.shade100,
         primarySwatch: Colors.grey,
       ),
-      home: const CompanyList(),
+      home: const LoginView(),
      
     );
   }

@@ -5,7 +5,7 @@ class CutomTextformfailed extends StatelessWidget {
   final String text;
   final IconData icon;
   final IconData? icon2;
-  final TextEditingController mycontroller;
+  final TextEditingController? mycontroller;
   final String? Function(String?) vild;
   final bool isNumber;
   final bool? obscure;
@@ -15,7 +15,7 @@ class CutomTextformfailed extends StatelessWidget {
       required this.hintText,
       required this.text,
       required this.icon,
-      required this.mycontroller,
+      this.mycontroller,
       required this.vild,
       required this.isNumber,
       this.obscure,
@@ -49,7 +49,7 @@ class CutomTextformfailed extends StatelessWidget {
             child: Icon(icon),
           ),
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(45),
+            borderRadius: BorderRadius.circular(10),
           ),
         ),
       ),
