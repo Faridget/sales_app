@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 //import 'package:sales_app/features/companylist/presentation/view/company_list_view.dart';
-//import 'package:sales_app/features/login/presentation/view/login_view.dart';
-import 'package:sales_app/features/settings/presentation/view/settings_view.dart';
+import 'package:sales_app/features/login/presentation/view/login_view.dart';
+//import 'package:sales_app/features/settings/presentation/view/settings_view.dart';
 import 'package:sales_app/generated/l10n.dart';
 
  
@@ -51,7 +51,7 @@ class _MainAppState extends State<MainApp> {
         scaffoldBackgroundColor: Colors.grey.shade100,
         primarySwatch: Colors.grey,
       ),
-      home: const SettingsView(),
+      home: const LoginView(),
      
     );
   }

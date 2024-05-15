@@ -56,7 +56,7 @@ class _LoginViewState extends State<LoginView> {
                         vild: (val) {
                           return validationInput(val!, 8, 50, 'email');
                         },
-                        hintText: 'Enter Your Email',
+                        //hintText: 'Enter Your Email',
                         icon: Icons.email_outlined,
                         text: 'Email',
                       ),
@@ -71,7 +71,7 @@ class _LoginViewState extends State<LoginView> {
                           },
                           hintText: 'Enter your password',
                           icon: Icons.lock_open_outlined,
-                          text: 'Enter your password',
+                          text: '',
                         ),
                         const Gap(20),
                         CustomBtn(text: 'Sing In', onPressed: (){}, width: 150)

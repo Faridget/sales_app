@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CutomTextformfailed extends StatelessWidget {
-  final String hintText;
-  final String text;
+  final String? hintText;
+  final String? text;
   final IconData icon;
   final IconData? icon2;
   final TextEditingController? mycontroller;
@@ -12,8 +12,8 @@ class CutomTextformfailed extends StatelessWidget {
   final void Function()? ontapicon;
   const CutomTextformfailed(
       {super.key,
-      required this.hintText,
-      required this.text,
+      this.hintText,
+      this.text,
       required this.icon,
       this.mycontroller,
       required this.vild,
@@ -42,7 +42,7 @@ class CutomTextformfailed extends StatelessWidget {
               const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
           label: Container(
             padding: const EdgeInsets.symmetric(horizontal: 17),
-            child: Text(text),
+            child: Text(text!),
           ),
           suffixIcon: InkWell(
             onTap: ontapicon,
